@@ -238,30 +238,51 @@
     });
 
     map.on('load', () => {
-            // Add a GeoJSON source with 2 points
-            map.addSource('points', {
-                'type': 'geojson',
-                'data': makeGeoJson(spas)
-            });
+        const geojson = makeGeoJson(spas)
 
-            // Add a symbol layer
-            map.addLayer({
-                'id': 'points',
-                'type': 'symbol',
-                'source': 'points',
-                'layout': {
-                    // 'icon-image': 'custom-marker',
-                    // get the title name from the source's "title" property
-                    'text-field': ['get', 'title'],
-                    'text-font': [
-                        'Open Sans Semibold',
-                        'Arial Unicode MS Bold'
-                    ],
-                    'text-offset': [0, 1.25],
-                    'text-anchor': 'top'
-                }
-            });
+        map.addSource('points', {
+            type: 'geojson',
+            data: geojson
         });
+
+        // Add a symbol layer
+        map.addLayer({
+            id: 'points',
+            type: 'circle',
+            source: 'points',
+            paint: {
+                'circle-radius': 10,
+                'circle-color': '#223bff',
+                'circle-stroke-color': 'white',
+                'circle-stroke-width': 3,
+                'circle-opacity': 1
+            }
+        })
+
+        map.addLayer({
+            id: 'points-ame',
+            type: 'symbol',
+            source: 'points',
+            layout: {
+                'text-field': ['get', 'title'],
+                'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                'text-size': 12,
+                'text-offset': [0, -2] 
+            },
+            paint: {
+                'text-halo-color': 'white',
+                'text-halo-width': 5,
+            }
+        });
+
+        // var geoJson = L.geoJson(geojson, {
+        //     pointToLayer: function (feature, latlng) {
+        //         return L.circleMarker(latlng, {
+        //             radius: 10
+        //         })
+        //     }
+        // }).addTo(map);
+    });
 
     </script>
   </body>
