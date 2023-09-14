@@ -209,7 +209,7 @@
     function makeGeoJson(spas) {
         return {
             'type': 'FeatureCollection',
-            'features': spas.map(spa => makeGeoJsonFeature([spa.lat, spa.lng], spa.name))
+            'features': spas.map(spa => makeGeoJsonFeature([spa.lng, spa.lat], spa.name))
         }
     }
 
@@ -233,7 +233,7 @@
       container: 'map',
       // Replace YOUR_STYLE_URL with your style URL.
       style: 'mapbox://styles/mapbox/navigation-night-v1',
-      center: [47.48915711935917, 19.04752496129215],
+      center: [19.04752496129215, 47.48915711935917],
       zoom: 10
     });
 
