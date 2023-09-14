@@ -22,17 +22,246 @@
   <body>
     <div id='map'></div>
     <script>
+
+    const spas = [
+    {
+        "initialSearch": "QC thermes Chamonix",
+        "formatted_address": "480 Prom. du Fori, 74400 Chamonix-Mont-Blanc, France",
+        "lat": 45.9292949,
+        "lng": 6.8748616,
+        "international_phone_number": "+33 9 73 05 30 01",
+        "name": "QC Terme Chamonix",
+        "website": "https://www.qcterme.com/fr/chamonix-mont-blanc/qc-terme-chamonix"
+    },
+    {
+        "initialSearch": "Aire de Barcelona",
+        "formatted_address": "Passeig de Picasso, 22, 08003 Barcelona, Spain",
+        "lat": 41.3870319,
+        "lng": 2.1834724,
+        "international_phone_number": "+34 932 20 44 18",
+        "name": "Aire de Barcelona",
+        "website": "https://beaire.com/es/aire-ancient-baths-barcelona"
+    },
+    {
+        "initialSearch": "Sturbadet, Sweden ",
+        "formatted_address": "Sturegallerian 36, 114 46 Stockholm, Sweden",
+        "lat": 59.3364717,
+        "lng": 18.0733706,
+        "international_phone_number": "+46 8 545 015 00",
+        "name": "Sturebadet AB",
+        "website": "http://www.sturebadet.se/"
+    },
+    {
+        "initialSearch": "Thai Penthouse, Armenia ",
+        "formatted_address": "1/3 Lemkin street, Yerevan, Armenia",
+        "lat": 40.1893087,
+        "lng": 44.5123963,
+        "international_phone_number": "+374 43 201008",
+        "name": "Thai Penthouse",
+        "website": "https://www.thaipenthouse.am/"
+    },
+    {
+        "initialSearch": "aire de vallromanes ",
+        "formatted_address": "Riera de Vallromanes, s/n, 08188 Vallromanes, Barcelona, Spain",
+        "lat": 41.5274225,
+        "lng": 2.3107731,
+        "international_phone_number": "+34 932 20 44 30",
+        "name": "Aire de Vallromanes",
+        "website": "https://relax.beaire.com/ca/aire-ancient-baths-vallromanes"
+    },
+    {
+        "initialSearch": "thermal baths vals switzerland ",
+        "formatted_address": "Poststrasse 560, 7132 Vals, Switzerland",
+        "lat": 46.6217047,
+        "lng": 9.1816313,
+        "international_phone_number": "+41 58 713 20 00",
+        "name": "7132 Therme",
+        "website": "https://7132.com/en/therme/thermal-baths/"
+    },
+    {
+        "initialSearch": "Rudas Baths, hungary",
+        "formatted_address": "Budapest, Döbrentei tér 9, 1013 Hungary",
+        "lat": 47.4890919,
+        "lng": 19.0478361,
+        "international_phone_number": "+36 20 321 4568",
+        "name": "Rudas Baths",
+        "website": "http://www.rudasfurdo.hu/"
+    },
+    {
+        "initialSearch": "Hanging Gardens of Bali",
+        "formatted_address": "Buahan, Payangan, Gianyar Regency, Bali 80571, Indonesia",
+        "lat": -8.4127542,
+        "lng": 115.238639,
+        "international_phone_number": "+62 811-3800-988",
+        "name": "Hanging Gardens Of Bali",
+        "website": "https://hanginggardensofbali.com/"
+    },
+    {
+        "initialSearch": "sources de Caudalie",
+        "formatted_address": "Smith Haut-Lafitte, 33650 Martillac, France",
+        "lat": 44.7309837,
+        "lng": -0.5573526,
+        "international_phone_number": "+33 5 57 83 83 83",
+        "name": "Les Sources de Caudalie",
+        "website": "https://sources-caudalie.com/"
+    },
+    {
+        "initialSearch": "Aire de Sevillia",
+        "formatted_address": "C. Aire, 15, 41004 Sevilla, Spain",
+        "lat": 37.387822,
+        "lng": -5.99005,
+        "international_phone_number": "+34 919 03 22 14",
+        "name": "AIRE Ancient Baths Sevilla",
+        "website": "https://beaire.com/es/aire-ancient-baths-sevilla"
+    },
+    {
+        "initialSearch": "Bagni de Pisa",
+        "formatted_address": "Largo P. B.Shelley, 18, 56017 San Giuliano Terme PI, Italy",
+        "lat": 43.7630768,
+        "lng": 10.4412502,
+        "international_phone_number": "+39 050 88501",
+        "name": "Bagni di Pisa",
+        "website": "https://www.bagnidipisa.com/"
+    },
+    {
+        "initialSearch": "Blue Lagoon, iceland",
+        "formatted_address": "Norðurljósavegur 9, 240 Grindavík, Iceland",
+        "lat": 63.8807176,
+        "lng": -22.4472963,
+        "international_phone_number": "+354 420 8800",
+        "name": "Blue Lagoon",
+        "website": "https://www.bluelagoon.com/is"
+    },
+    {
+        "initialSearch": "LeCrans, switserland",
+        "formatted_address": "Chem. du Mont-Blanc 1, 3963 Crans-Montana, Switzerland",
+        "lat": 46.3151966,
+        "lng": 7.4623756,
+        "international_phone_number": "+41 27 486 60 60",
+        "name": "LeCrans",
+        "website": "http://www.lecrans.com/"
+    },
+    {
+        "initialSearch": "qc therme, rome",
+        "formatted_address": "Viale dell'Oceano Pacifico, 83, 00144 Roma RM, Italy",
+        "lat": 41.8176039,
+        "lng": 12.4591246,
+        "international_phone_number": "+39 06 6501 0076",
+        "name": "QC Terme",
+        "website": "https://www.qcterme.com/it/stores"
+    },
+    {
+        "initialSearch": "Spa sereen",
+        "formatted_address": "Westbroeksebinnenweg 2a, 3612 AH Tienhoven, Netherlands",
+        "lat": 52.145958,
+        "lng": 5.0831085,
+        "international_phone_number": "+31 346 217 222",
+        "name": "SpaSereen Maarssen",
+        "website": "http://www.spasereen.nl/"
+    },
+    {
+        "initialSearch": "St Pancras Spa",
+        "formatted_address": "Euston Rd., London NW1 2AR, UK",
+        "lat": 51.5297809,
+        "lng": -0.1261168,
+        "international_phone_number": "+44 20 7841 3578",
+        "name": "St. Pancras Spa",
+        "website": "https://www.stpancras-spa.com/"
+    },
+    {
+        "initialSearch": "Lanserhof Tegernsee",
+        "formatted_address": "Gut Steinberg 1-4, 83666 Waakirchen, Germany",
+        "lat": 47.7512045,
+        "lng": 11.6939294,
+        "international_phone_number": "+49 8022 18800",
+        "name": "Lanserhof TEGERNSEE",
+        "website": "https://lanserhof.com/de/lanserhof-tegernsee/"
+    },
+    {
+        "initialSearch": "Liquidroom, Germany",
+        "formatted_address": "Möckernstrasse 10, 10963 Berlin, Germany",
+        "lat": 52.5015803,
+        "lng": 13.3811599,
+        "international_phone_number": "+49 30 258007820",
+        "name": "Liquidrom",
+        "website": "https://www.liquidrom-berlin.de/"
+    },
+    {
+        "initialSearch": "QC therme, milano",
+        "formatted_address": "Piazzale Medaglie D'Oro, 2, 20135 Milano MI, Italy",
+        "lat": 45.4517364,
+        "lng": 9.2017142,
+        "international_phone_number": "+39 02 8974 7205",
+        "name": "QC Termemilano",
+        "website": "https://www.qcterme.com/it/milano/qc-termemilano"
+    },
+    {
+        "initialSearch": "Sauna de Heuvelrug",
+        "formatted_address": "Dijkstraat-West 189, 3906 WR Veenendaal, Netherlands",
+        "lat": 52.0231075,
+        "lng": 5.5185607,
+        "international_phone_number": "+31 318 520 321",
+        "name": "Sauna de Heuvelrug Veenendaal",
+        "website": "http://www.saunadeheuvelrug.nl/"
+    }
+]
+
+    function makeGeoJson(spas) {
+        return {
+            'type': 'FeatureCollection',
+            'features': spas.map(spa => makeGeoJsonFeature([spa.lng, spa.lat], spa.name))
+        }
+    }
+
+    function makeGeoJsonFeature(coordinates, title) {
+        return {
+            // feature for Mapbox DC
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': coordinates
+            },
+            'properties': {
+                'title': title
+            }
+        }
+    }
+
     // The value for 'accessToken' begins with 'pk...'
     mapboxgl.accessToken = 'pk.eyJ1IjoidGhvbWFzZ3VpbGxvcnkiLCJhIjoiY2xsZmM1cTdtMHl2czNxcWg5ejJpczF3ayJ9.gNzd4k3rBT3klzQB0wqpLA'; 
     const map = new mapboxgl.Map({
       container: 'map',
       // Replace YOUR_STYLE_URL with your style URL.
       style: 'mapbox://styles/mapbox/navigation-night-v1',
-      center: [47.48915711935917, 19.04752496129215],
-      zoom: 7
+      center: [19.04752496129215, 47.48915711935917],
+      zoom: 10
     });
 
-    // Code from the next step will go here.
+    map.on('load', () => {
+            // Add a GeoJSON source with 2 points
+            map.addSource('points', {
+                'type': 'geojson',
+                'data': makeGeoJson(spas)
+            });
+
+            // Add a symbol layer
+            map.addLayer({
+                'id': 'points',
+                'type': 'symbol',
+                'source': 'points',
+                'layout': {
+                    // 'icon-image': 'custom-marker',
+                    // get the title name from the source's "title" property
+                    'text-field': ['get', 'title'],
+                    'text-font': [
+                        'Open Sans Semibold',
+                        'Arial Unicode MS Bold'
+                    ],
+                    'text-offset': [0, 1.25],
+                    'text-anchor': 'top'
+                }
+            });
+        });
 
     </script>
   </body>
