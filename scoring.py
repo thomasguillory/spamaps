@@ -70,11 +70,11 @@ def save_geojson(features):
 
     # Write the updated GeoJSON to a new file / --> only 50+ points
     with open('data/score_output_50plus.geojson', 'w') as f:
-        json.dump(features, f, indent=2)
+        json.dump(data, f, indent=2)
     
     # # Write the updated GeoJSON to a new file
     # with open('data/score_output.geojson', 'w') as f:
-    #     json.dump(features, f, indent=2)
+    #     json.dump(data, f, indent=2)
 
 def count_scores(features):
     score_counts = {}
