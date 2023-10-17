@@ -23,7 +23,7 @@
     <div id='map'></div>
     <script>
 
-    const GEOJSON_URL = 'https://thomasguillory.github.io/spamaps/openstreetmap_data_23701x.geojson'
+    const GEOJSON_URL = 'https://thomasguillory.github.io/spamaps/data/score_output_50plus.geojson'
 
     // The value for 'accessToken' begins with 'pk...'
     mapboxgl.accessToken = 'pk.eyJ1IjoidGhvbWFzZ3VpbGxvcnkiLCJhIjoiY2xsZmM1cTdtMHl2czNxcWg5ejJpczF3ayJ9.gNzd4k3rBT3klzQB0wqpLA'; 
@@ -47,18 +47,19 @@
             type: 'circle',
             source: 'points',
             paint: {
-                'circle-radius': 10,
+                'circle-radius': 4,
                 'circle-color': '#223bff',
                 'circle-stroke-color': 'white',
-                'circle-stroke-width': 3,
+                'circle-stroke-width': 1,
                 'circle-opacity': 1
             }
         })
 
         map.addLayer({
-            id: 'points-ame',
+            id: 'points-name',
             type: 'symbol',
             source: 'points',
+            minzoom: 8,
             layout: {
                 'text-field': ['get', 'name'],
                 'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
