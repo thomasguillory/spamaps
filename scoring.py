@@ -26,32 +26,26 @@ def count_properties(features):
     for key in sorted_keys:
         print(f"{key}: {key_counts[key]}")
 
-# Scoring the Data rules:
-# 2. for each important property (name, address, phone, website)        -> 2 points per important property          -> phone, contact:phone, website, wikidata, opening_hours, fee, tourism, email, contact:website, contact:email, charge, wikipedia, url
-# 3. for each property that is of normal importance                     -> 1 point per normal property              -> name, name:en, contact:facebook, contact:instagram, nudism
-# 4. for any other property                                             -> 0.2 point per other property 
-# 5. default negative score when fixme is a key                         -> -1 point total for fixme key
-
 def calculate_score(feature):
     score = 0
     properties = feature.get('properties', {})
     super_important_properties = ['website', 'email', 'url', 'contact:email', 'contact:website', 'wikidata', 'architect']
     important_properties = ['phone', 'contact:phone', 'opening_hours', 'fee', 'tourism', 'charge', 'wikipedia']
     normal_properties = ['name', 'name:en', 'contact:facebook', 'contact:instagram', 'nudism']
-    
-    for prop in properties:
-        if prop in super_important_properties:
-            score += 50
-        elif prop in important_properties:
-            score += 20
-        elif prop in normal_properties:
-            score += 10
-        else:
-            score += 2
-    
-    if 'fixme' in properties:
+    exclude = ['fixme', 'hotel']
+
+    if any(prop in exclude for prop in properties):
         score = 0
-    
+    else:
+        for prop in properties:
+            if prop in super_important_properties:
+                score += 50
+            elif prop in important_properties:
+                score += 20
+            elif prop in normal_properties:
+                score += 10
+            else:
+                score += 2
     return score
 
 def add_scores_to_features(features):
@@ -59,23 +53,17 @@ def add_scores_to_features(features):
         score = calculate_score(feature)
         feature['properties']['score'] = score
 
-
-
-def save_geojson(features):
+def save_geojson(features, filter_value=50):
     # sort features based on score in descending order
     features.sort(key=lambda f: f['properties']['score'], reverse=True)
 
     # filter features based on score >= 49
-    features[:] = [f for f in features if f['properties']['score'] >= 49]
+    features[:] = [f for f in features if f['properties']['score'] >= filter_value]
 
     # Write the updated GeoJSON to a new file / --> only 50+ points
-    with open('data/score_output_50plus.geojson', 'w') as f:
+    with open(f'data/score_output_{filter_value}plus.geojson', 'w') as f:
         json.dump(data, f, indent=2)
     
-    # # Write the updated GeoJSON to a new file
-    # with open('data/score_output.geojson', 'w') as f:
-    #     json.dump(data, f, indent=2)
-
 def count_scores(features):
     score_counts = {}
     total_above_50 = 0
@@ -91,8 +79,20 @@ def count_scores(features):
         print(f"{score},{count}")
     print(f"Total above 50: {total_above_50}")
 
-# count_properties(features)
-add_scores_to_features(features)
-save_geojson(features)
+def extract_and_print_urls(features):
+    for feature in features:
+        properties = feature.get('properties', {})
+        wikidata = properties.get('wikidata')
+        if wikidata is not None:
+            urls = [properties.get('website'), properties.get('url'), 'https://www.wikidata.org/wiki/' + wikidata]
+        else:
+            urls = [properties.get('website'), properties.get('url')]        
+        for url in urls:
+            if url is not None:
+                print(url)
 
-count_scores(features)
+# count_properties(features)
+# add_scores_to_features(features)
+# save_geojson(features, 50) # filter_value = 50
+# count_scores(features)
+extract_and_print_urls(features)
