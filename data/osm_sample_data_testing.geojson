@@ -1,0 +1,1458 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2023-09-18T15:42:01Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11151675502",
+                "access": "customers",
+                "fee": "no",
+                "leisure": "sauna",
+                "name": "Finnische Sauna",
+                "opening_hours": "Mo-Su 16:00-22:00",
+                "operator": "Hotel Rindenmühle GmbH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.4351105,
+                    48.0679336
+                ]
+            },
+            "id": "node/11151675502"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11151675503",
+                "access": "customers",
+                "fee": "no",
+                "leisure": "sauna",
+                "name": "Sanarium",
+                "opening_hours": "Mo-Su 16:00-22:00",
+                "operator": "Hotel Rindenmühle GmbH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.4352148,
+                    48.0678897
+                ]
+            },
+            "id": "node/11151675503"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11151793437",
+                "addr:housenumber": "3",
+                "addr:street": "Комсомольская улица",
+                "leisure": "sauna",
+                "name": "Сауна \"Дадим Жару\""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.9067589,
+                    67.9354738
+                ]
+            },
+            "id": "node/11151793437"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11153420105",
+                "name": "مركز اسكادو",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.4013164,
+                    33.3318299
+                ]
+            },
+            "id": "node/11153420105"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11155183878",
+                "access": "yes",
+                "addr:city": "Киров",
+                "addr:housenumber": "6",
+                "addr:postcode": "610006",
+                "addr:street": "улица Лепсе",
+                "contact:phone": "+7 833 2210666",
+                "contact:website": "https://www.sauna-kirov.ru/",
+                "fee": "yes",
+                "leisure": "sauna",
+                "name": "Калипсо",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.6444868,
+                    58.623352
+                ]
+            },
+            "id": "node/11155183878"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11155183879",
+                "access": "yes",
+                "addr:city": "Киров",
+                "addr:housenumber": "6",
+                "addr:postcode": "610006",
+                "addr:street": "улица Лепсе",
+                "contact:phone": "+7 833 2210666",
+                "contact:website": "https://www.sauna-kirov.ru/",
+                "fee": "yes",
+                "leisure": "sauna",
+                "name": "Мулен Руж",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.6444113,
+                    58.6234003
+                ]
+            },
+            "id": "node/11155183879"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11155923758",
+                "contact:phone": "+7 913 9192500",
+                "contact:website": "http://шишкабанныйдом.рф",
+                "leisure": "sauna",
+                "name": "Морская шишка",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.0433691,
+                    54.7909897
+                ]
+            },
+            "id": "node/11155923758"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11155945231",
+                "contact:email": "adm@mymeduza.ru",
+                "contact:phone": "+7 383 2735004;+7 383 2735006;+7 953 8580106",
+                "contact:website": "https://www.mymeduza.ru/",
+                "leisure": "sauna",
+                "name": "Медуза",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9434219,
+                    55.0569451
+                ]
+            },
+            "id": "node/11155945231"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11156094959",
+                "leisure": "sauna",
+                "name": "Kogukonnasaunad"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6303928,
+                    59.413846
+                ]
+            },
+            "id": "node/11156094959"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11156269409",
+                "amenity": "public_bath",
+                "bath:type": "onsen",
+                "fee": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    131.139258,
+                    33.0780192
+                ]
+            },
+            "id": "node/11156269409"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11156589607",
+                "name": "چشمه آب گرم",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.2097528,
+                    36.7088328
+                ]
+            },
+            "id": "node/11156589607"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11156744098",
+                "name": "Crater Guagua Pichincha",
+                "natural": "hot_spring",
+                "source": "survey;local knowledge"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.6172251,
+                    -0.1725042
+                ]
+            },
+            "id": "node/11156744098"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11157090569",
+                "description": "Sorgente termale all'aperto, libera.",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.428609,
+                    43.3080426
+                ]
+            },
+            "id": "node/11157090569"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11159013724",
+                "amenity": "public_bath",
+                "bath:open_air": "no",
+                "bath:type": "thermal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.9910482,
+                    46.6021668
+                ]
+            },
+            "id": "node/11159013724"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11159607705",
+                "name": "الالات الدقيقة",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.3418044,
+                    30.5655001
+                ]
+            },
+            "id": "node/11159607705"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11160604465",
+                "leisure": "sauna",
+                "level": "2",
+                "name": "Saunia",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "website": "https://www.saunia.cz/westfield-chodov-praha"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4904639,
+                    50.0311479
+                ]
+            },
+            "id": "node/11160604465"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11161513405",
+                "name": "واجب حي السلام",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.292052,
+                    33.3269072
+                ]
+            },
+            "id": "node/11161513405"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162038005",
+                "name": "باب طرابلس",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.7489281,
+                    35.1232389
+                ]
+            },
+            "id": "node/11162038005"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162038006",
+                "name": "دوار الاسكان",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.7636418,
+                    35.1076754
+                ]
+            },
+            "id": "node/11162038006"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162038105",
+                "name": "دوار الصحة",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.7612283,
+                    35.1152094
+                ]
+            },
+            "id": "node/11162038105"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162043405",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.8723066,
+                    34.9238908
+                ]
+            },
+            "id": "node/11162043405"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162048907",
+                "name": "جمعية رعاية الاجتماعية",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.7665424,
+                    35.1128443
+                ]
+            },
+            "id": "node/11162048907"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162050205",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.8737455,
+                    34.9234767
+                ]
+            },
+            "id": "node/11162050205"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162291005",
+                "name:en": "Selling Cricket",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.9218036,
+                    11.5642249
+                ]
+            },
+            "id": "node/11162291005"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162838705",
+                "name": "C3006334 Essmail Arzak",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.6729486,
+                    33.5444492
+                ]
+            },
+            "id": "node/11162838705"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162838905",
+                "name": "الاصلاح الزراعي",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.0890819,
+                    36.3528308
+                ]
+            },
+            "id": "node/11162838905"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11162839005",
+                "name": "الحمد الشطيبي",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.2732135,
+                    35.9385653
+                ]
+            },
+            "id": "node/11162839005"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11163110605",
+                "name": "الشليجات المشيعل",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.0778113,
+                    31.3660272
+                ]
+            },
+            "id": "node/11163110605"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11163158605",
+                "name": "جيكاى سياره",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.4385154,
+                    35.5614607
+                ]
+            },
+            "id": "node/11163158605"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11163701678",
+                "access": "private",
+                "leisure": "sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1173505,
+                    60.9159408
+                ]
+            },
+            "id": "node/11163701678"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11164415089",
+                "access": "permissive",
+                "charge": "16 CHF",
+                "fee": "yes",
+                "female": "yes",
+                "leisure": "sauna",
+                "name": "Sauna im Norden",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 09:00-17:00",
+                "operator": "Tonttu GmbH",
+                "website": "https://saunaimnorden.ch"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5564674,
+                    47.4102729
+                ]
+            },
+            "id": "node/11164415089"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11164877510",
+                "name": "گراجنه الكاضميه",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.3354556,
+                    33.3751114
+                ]
+            },
+            "id": "node/11164877510"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11164881906",
+                "name": "الى عمتي بتول",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.3234259,
+                    33.2650487
+                ]
+            },
+            "id": "node/11164881906"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11164917805",
+                "name": "مقام الامام المظهر واولادة",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.3875309,
+                    32.7872457
+                ]
+            },
+            "id": "node/11164917805"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11165199006",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.7799722,
+                    10.2889012
+                ]
+            },
+            "id": "node/11165199006"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11165259585",
+                "leisure": "sauna",
+                "name": "Hikers Inn"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    42.5945522,
+                    43.1025741
+                ]
+            },
+            "id": "node/11165259585"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11165600044",
+                "leisure": "sauna",
+                "name": "King Spa and Sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.9059752,
+                    32.8936605
+                ]
+            },
+            "id": "node/11165600044"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11166023960",
+                "leisure": "sauna",
+                "name": "Still Point Wellness"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.5008016,
+                    35.5890389
+                ]
+            },
+            "id": "node/11166023960"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11166192205",
+                "leisure": "sauna",
+                "name:fr": "Maksum sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.9668123,
+                    48.9663875
+                ]
+            },
+            "id": "node/11166192205"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11166658255",
+                "access": "private",
+                "leisure": "sauna",
+                "operator": "Styrsö Havsbads Vänner"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7932815,
+                    57.61824
+                ]
+            },
+            "id": "node/11166658255"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11167383605",
+                "name": "الحي الخامس منطقة 2",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.419085,
+                    29.9987867
+                ]
+            },
+            "id": "node/11167383605"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11167755905",
+                "name": "مفيديا بارسل 39",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.5336236,
+                    30.0061072
+                ]
+            },
+            "id": "node/11167755905"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11168937164",
+                "addr:housenumber": "167A",
+                "addr:place": "Gać",
+                "addr:postcode": "37-207",
+                "contact:facebook": "61550713687703",
+                "contact:mobile": "+48 698670554",
+                "leisure": "sauna",
+                "name": "Piekielne Zacisze"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3763639,
+                    50.0245864
+                ]
+            },
+            "id": "node/11168937164"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11168999137",
+                "addr:housenumber": "名古屋市千種区内山2-14-6",
+                "leisure": "sauna",
+                "name": "君の湯"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.9387059,
+                    35.1720261
+                ]
+            },
+            "id": "node/11168999137"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11169395645",
+                "contact:email": "parnaya1@yandex.ru",
+                "contact:phone": "+7 843 2402405",
+                "contact:website": "http://парная-на-ершова.рф",
+                "leisure": "sauna",
+                "name": "Парная №1",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.1633275,
+                    55.7926899
+                ]
+            },
+            "id": "node/11169395645"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11169395698",
+                "contact:phone": "+7 843 2270022",
+                "leisure": "sauna",
+                "name": "Medovaya",
+                "opening_hours": "Mo-Su 11:00-22:00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.2603726,
+                    55.7586113
+                ]
+            },
+            "id": "node/11169395698"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11169395718",
+                "contact:phone": "+7 986 9230033",
+                "leisure": "sauna",
+                "name": "Сосновские бани",
+                "opening_hours": "Mo-Su 11:00-22:00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.37365,
+                    55.0593324
+                ]
+            },
+            "id": "node/11169395718"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11169395787",
+                "contact:phone": "+7 843 2580440;+7 960 0480440",
+                "contact:website": "https://borisoglebskie-bani.2gis.biz",
+                "leisure": "sauna",
+                "name": "Борисоглебские бани",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.1496134,
+                    55.8707287
+                ]
+            },
+            "id": "node/11169395787"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11169440034",
+                "contact:email": "olegavito1990@mail.ru",
+                "contact:phone": "+7 927 0753071",
+                "contact:website": "http://sauna-mystery.ru/",
+                "leisure": "sauna",
+                "name": "Mystery",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.0837088,
+                    46.3735735
+                ]
+            },
+            "id": "node/11169440034"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11169446506",
+                "contact:phone": "+7 906 9654717",
+                "contact:website": "http://малаховские-сауны.рф",
+                "leisure": "sauna",
+                "name": "Малаховские сауны",
+                "opening_hours": "24/7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.7120168,
+                    53.3744388
+                ]
+            },
+            "id": "node/11169446506"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11170574037",
+                "name": "تلعدان",
+                "name:en": "Adan",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.0744284,
+                    29.2382932
+                ]
+            },
+            "id": "node/11170574037"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11170704993",
+                "contact:phone": "+7 49237 22829;+7 962 0918828",
+                "contact:website": "https://admiral-33.ru",
+                "leisure": "sauna",
+                "name": "Адмиральские бани",
+                "opening_hours": "Mo-Su 08:00-23:00"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.8660026,
+                    56.1720836
+                ]
+            },
+            "id": "node/11170704993"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11170803597",
+                "description": "Man made rock pools",
+                "name": "Hobo Hot Springs",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.7961557,
+                    49.3061223
+                ]
+            },
+            "id": "node/11170803597"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11170850537",
+                "name": "المرفأ.",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.9030221,
+                    30.1248825
+                ]
+            },
+            "id": "node/11170850537"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11171326537",
+                "name": "C3002463 Idkart Halima",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.6928816,
+                    33.5618076
+                ]
+            },
+            "id": "node/11171326537"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11171515836",
+                "leisure": "sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -19.5408679,
+                    63.6905513
+                ]
+            },
+            "id": "node/11171515836"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11171986337",
+                "name": "ال بو دلي",
+                "name:en": "Al Boudli",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.5143775,
+                    30.8463629
+                ]
+            },
+            "id": "node/11171986337"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11172175237",
+                "name": "مولدة مرتضى",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.4308003,
+                    33.4228761
+                ]
+            },
+            "id": "node/11172175237"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173015037",
+                "name": "الكطيعه",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.8935142,
+                    31.3032676
+                ]
+            },
+            "id": "node/11173015037"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173540269",
+                "name": "Wilson Health Springs",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4257746,
+                    39.9110188
+                ]
+            },
+            "id": "node/11173540269"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173540270",
+                "name": "Wilson Health Springs",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4272983,
+                    39.9084737
+                ]
+            },
+            "id": "node/11173540270"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173540271",
+                "name": "Wilson Health Springs",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4294613,
+                    39.9075287
+                ]
+            },
+            "id": "node/11173540271"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173540272",
+                "name": "Wilson Health Springs",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4310058,
+                    39.9065122
+                ]
+            },
+            "id": "node/11173540272"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173540273",
+                "name": "Wilson Health Springs",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.430766,
+                    39.9066532
+                ]
+            },
+            "id": "node/11173540273"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11173686738",
+                "name": "بيت خالي علي",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.2079489,
+                    36.3209898
+                ]
+            },
+            "id": "node/11173686738"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11174627940",
+                "name": "بيت ابو مهند",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.368012,
+                    33.3747997
+                ]
+            },
+            "id": "node/11174627940"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11174627941",
+                "name": "دكتور حسان",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.3772712,
+                    33.3754713
+                ]
+            },
+            "id": "node/11174627941"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11174661237",
+                "name": "بيت ابو حيدر مزرعة",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.491734,
+                    33.1924821
+                ]
+            },
+            "id": "node/11174661237"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11174661337",
+                "name": "موقع ابو سيف",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.4183434,
+                    33.2745912
+                ]
+            },
+            "id": "node/11174661337"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11175037437",
+                "name": "هور عوده",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.8504064,
+                    31.5708337
+                ]
+            },
+            "id": "node/11175037437"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11176438837",
+                "name": "سياره م",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.4308948,
+                    35.5567846
+                ]
+            },
+            "id": "node/11176438837"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11176645255",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.9873162,
+                    45.0904439
+                ]
+            },
+            "id": "node/11176645255"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11176850104",
+                "access": "permissive",
+                "alt_name": "Vrelo i kupke Toplice",
+                "amenity": "public_bath",
+                "bath:type": "hot_spring",
+                "name": "Stari bazen",
+                "temperature": "25"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5708143,
+                    45.7067366
+                ]
+            },
+            "id": "node/11176850104"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11177367842",
+                "leisure": "sauna",
+                "name": "Steam Sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.5539814,
+                    4.2867297
+                ]
+            },
+            "id": "node/11177367842"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11177416437",
+                "name": "بيت ابو علياء",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.4146853,
+                    33.5508132
+                ]
+            },
+            "id": "node/11177416437"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11177859337",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.3411471,
+                    31.7306396
+                ]
+            },
+            "id": "node/11177859337"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11177929737",
+                "name": "قاعة الاميرات للمناسبات",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.6165027,
+                    33.7425818
+                ]
+            },
+            "id": "node/11177929737"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11178250337",
+                "leisure": "sauna",
+                "level": "0",
+                "name": "Kongen Marina Sauna",
+                "opening_hours": "Mo-Su 10:00-23:00",
+                "phone": "+47 22 55 40 55",
+                "website": "https://www.kongenmarinasauna.no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7049242,
+                    59.910021
+                ]
+            },
+            "id": "node/11178250337"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11179562826",
+                "leisure": "sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.8789199,
+                    55.4642692
+                ]
+            },
+            "id": "node/11179562826"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11179698369",
+                "name": "Miracle Hot Springs",
+                "natural": "hot_spring",
+                "water_characteristic": "sulfuric"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.5337241,
+                    35.5762442
+                ]
+            },
+            "id": "node/11179698369"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11180759561",
+                "leisure": "sauna",
+                "name": "Банный рай"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.8633529,
+                    53.9479995
+                ]
+            },
+            "id": "node/11180759561"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11182026537",
+                "name": "چایخانە ی شە وانی هاوریان",
+                "natural": "hot_spring"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.0183013,
+                    36.1776771
+                ]
+            },
+            "id": "node/11182026537"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11182567916",
+                "access": "yes",
+                "fee": "no",
+                "leisure": "sauna",
+                "name": "Djupskär Suana & Laavu"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.3972051,
+                    63.1802693
+                ]
+            },
+            "id": "node/11182567916"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11182616874",
+                "access": "customers",
+                "amenity": "whirlpool",
+                "fee": "yes",
+                "leisure": "sauna",
+                "name": "MyWellness",
+                "opening_hours": "Mo-Su 09:00-24:00",
+                "website": "https://mywellness.de/duesseldorf-heerdt/"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7065317,
+                    51.2302541
+                ]
+            },
+            "id": "node/11182616874"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/11182689625",
+                "access": "customers",
+                "addr:city": "Rovaniemi",
+                "addr:street": "Hiihtomajantie",
+                "leisure": "sauna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.7830535,
+                    66.501353
+                ]
+            },
+            "id": "node/11182689625"
+        }
+    ]
+}

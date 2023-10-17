@@ -1,5 +1,10 @@
+// this document is a guide to use overpass turbo website and overpass api to query data from openstreetmap.org
+// the query at the bottom is used to get the data from https://overpass-turbo.eu/# and download it in a geojson file.
 
-
+// usefui links:
+// https://taginfo.openstreetmap.org for info about openstreetmap tags. used to explore tags and see how many of each tag are on openstreetmap.
+// https://openstreetmap.org to explore missing data using the question mark tool. When you know of a SPA you can query the map where you woudl expect it. This can help find missing relavent tags.
+// https://overpass-turbo.eu/# to query data from openstreetmap.org
 
 // query info for overpass turbo. 
 "https://overpass-turbo.eu/"
