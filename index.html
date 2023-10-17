@@ -36,6 +36,12 @@
     });
 
     map.on('load', () => {
+        // Add zoom
+        map.addControl(new mapboxgl.NavigationControl({
+            showCompass: false,
+            visualizePitch: false
+        }));
+
         map.addSource('points', {
             type: 'geojson',
             data: GEOJSON_URL   
